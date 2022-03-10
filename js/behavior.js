@@ -5,7 +5,7 @@ function nextMeme(){
     console.log(b)
     var a = [];
     n.forEach(function(p){
-        if(!(p === b)){
+        if(!b.includes(p)){
             a.push(p);
         }
     });
