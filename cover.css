@@ -103,7 +103,10 @@ body {
     float: right;
   }
 }
-
+.img-max {
+  max-width: 500px;
+  width:100%;
+}
 
 /*
  * Cover
